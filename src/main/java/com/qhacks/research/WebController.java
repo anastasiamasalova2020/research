@@ -12,4 +12,9 @@ public class WebController {
     public String registration() {
         return "registration.html";
     }
+
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login() {
+        return "login.html";
+    }
 }
