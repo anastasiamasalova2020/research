@@ -17,4 +17,7 @@ public class WebController {
     public String login() {
         return "login.html";
     }
+
+    @RequestMapping(value = "/testing", method = RequestMethod.GET)
+    public String testing() {return "FrontPage.html";}
 }
